@@ -19,7 +19,7 @@ export function Home() {
           <div className="hero__side-note"><span>Thoughtful things<br />for a changing world.</span><span className="side-note__rule" /><span className="mono">EST. IN CURIOSITY</span></div>
           <div className="hero__title-wrap">
             <span className="hero__small-label">A visual notebook by</span>
-            <h1 id="hero-title" className="hero__title"><span className="hero__title-mask"><motion.span initial={{ y: '110%', rotate: 3 }} animate={{ y: 0, rotate: 0 }} transition={{ duration: 1.05, delay: 0.16, ease }}>Yasmi</motion.span></span><span className="hero__asterisk" aria-hidden="true">✳</span></h1>
+            <h1 id="hero-title" className="hero__title"><span className="hero__title-mask"><motion.span initial={{ y: '110%', rotate: 3 }} animate={{ y: 0, rotate: 0 }} transition={{ duration: 1.05, delay: 0.16, ease }}>Nisam</motion.span></span><span className="hero__asterisk" aria-hidden="true">✳</span></h1>
             <div className="hero__bottomline"><p>{site.intro}</p><a href="#projects" className="circle-link" aria-label="Scroll to selected work"><ArrowDown size={16} /></a></div>
           </div>
           <div className="hero__visual" aria-label="Abstract soft sculptural study"><div className="hero__visual-orbit hero__visual-orbit--one" /><div className="hero__visual-orbit hero__visual-orbit--two" /><div className="hero__sculpture"><span /><span /><span /></div><span className="hero__visual-caption mono">STUDY Nº 001 — FORM IN LIGHT</span></div>
@@ -40,11 +40,11 @@ export function Home() {
       <section className="about-section" id="about" aria-labelledby="about-title">
         <div className="section-head"><span className="eyebrow"><span className="section-number">02</span> A little about</span><span className="mono section-head__note">AN OPEN-ENDED PRACTICE</span></div>
         <div className="about-grid">
-          <div className="about-image-wrap"><ImageReveal src="/images/portrait.jpg" alt="Portrait image placeholder for Yasmi, replace with a personal image" variant="right" className="about-image" /><span className="image-caption mono">A PLACEHOLDER PORTRAIT — REPLACE WITH YOUR OWN</span></div>
+          <div className="about-image-wrap"><ImageReveal src="/images/portrait.jpg" alt="Portrait image placeholder for Nisam, replace with a personal image" variant="right" className="about-image" /><span className="image-caption mono">A PLACEHOLDER PORTRAIT — REPLACE WITH YOUR OWN</span></div>
           <div className="about-copy">
             <span className="about-index mono">Y / 01</span>
             <Lines as="h2" className="about-title" lines={['Curious by', 'nature.']} />
-            <Reveal x={18} className="about-paragraph"><p>Somewhere between images, objects and interfaces is where this practice lives. Yasmi is a name and a point of view in progress — a place for considered experiments, personal work and future collaborations.</p><p>The details on this page are intentionally editable. It should become a reflection of the real person, process and work behind the name.</p></Reveal>
+            <Reveal x={18} className="about-paragraph"><p>Somewhere between images, objects and interfaces is where this practice lives. Nisam is a name and a point of view in progress — a place for considered experiments, personal work and future collaborations.</p><p>The details on this page are intentionally editable. It should become a reflection of the real person, process and work behind the name.</p></Reveal>
             <Reveal delay={0.08} x={16} className="about-footnote"><span className="about-footnote__marker">✳</span><span>Keep what feels true.<br />Change everything else.</span></Reveal>
           </div>
         </div>
@@ -70,7 +70,7 @@ export function Home() {
 
       <section className="featured-section" id="featured" aria-labelledby="featured-title">
         <div className="featured-topline"><span className="eyebrow"><span className="section-number">04</span> A closer look / demonstration</span><span className="mono">SCROLL TO UNFOLD</span></div>
-        <div className="featured-intro"><span className="featured-kicker mono">A STUDY IN FORM & LIGHT / 001</span><Lines as="h2" className="featured-title" lines={['Softness', 'takes shape.']} /><Reveal className="featured-summary" x={14}><p>{featured.summary} The full story and project details are placeholders, ready for Yasmi’s real work.</p></Reveal></div>
+        <div className="featured-intro"><span className="featured-kicker mono">A STUDY IN FORM & LIGHT / 001</span><Lines as="h2" className="featured-title" lines={['Softness', 'takes shape.']} /><Reveal className="featured-summary" x={14}><p>{featured.summary} The full story and project details are placeholders, ready for Nisam’s real work.</p></Reveal></div>
         <div className="featured-image-shell"><Parallax src={featured.cover} alt={`${featured.title} abstract visual`} strength={5} className="featured-image" /><span className="featured-image__label mono">01 — A FORM, HELD IN LIGHT</span><span className="featured-image__vertical mono">VISUAL STUDY / 2026</span></div>
         <div className="featured-bottom"><span className="featured-bottom__symbol">✳</span><p>A starting point, not a finished story. Replace this study with a real project narrative, images and details.</p><a href="#projects" className="text-link">Back to the studies <ArrowUpRight size={15} /></a></div>
       </section>
@@ -111,7 +111,7 @@ function ProjectDialog({ project, onClose }: { project: Project; onClose: () => 
           <span className="mono project-dialog__eyebrow">{project.category} / {project.year} / DEMONSTRATION</span>
           <h2 id="project-dialog-title">{project.title}</h2>
           <p className="project-dialog__summary">{project.summary}</p>
-          <p className="project-dialog__note">This is editable sample content, not a claim about Yasmi’s actual work. Replace the title, images, description and project details before publishing.</p>
+          <p className="project-dialog__note">This is editable sample content, not a claim about Nisam’s actual work. Replace the title, images, description and project details before publishing.</p>
           <div className="project-dialog__details"><div><span className="mono">FOCUS</span><p>{project.role.join(' / ')}</p></div><div><span className="mono">DELIVERABLES</span><p>{project.deliverables.join(' / ')}</p></div></div>
           {project.body.map((paragraph) => <p className="project-dialog__story" key={paragraph}>{paragraph}</p>)}
           <button type="button" className="project-dialog__done" onClick={() => dialogRef.current?.close()}>Close study <ArrowUpRight size={15} /></button>

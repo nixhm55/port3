@@ -1,6 +1,6 @@
-# Yasmi — a visual notebook
+# Nisam — a visual notebook
 
-A responsive, motion-led single-page portfolio for Yasmi, with editorial typography, layered CSS depth, scroll reveals, responsive anchor navigation, a featured visual study, and editable demonstration project dialogs.
+A responsive, motion-led single-page portfolio for Nisam, with editorial typography, layered CSS depth, scroll reveals, responsive anchor navigation, a featured visual study, and editable demonstration project dialogs.
 
 ## Run locally
 
@@ -20,7 +20,7 @@ bun run build      # dist/client (assets) + dist/portfolio/index.js (Worker)
 - `src/styles.css` defines the warm paper, ink and restrained vermilion palette, responsive editorial layouts, animation styles and mobile navigation.
 - Contact currently uses an honest `mailto:` fallback. Edit the email address and social links in `src/data/site.ts`; no form or message backend is configured.
 
-The project was adapted from the Freebuff Portfolio starter. The project list is explicitly demonstration content, not a record of Yasmi’s actual work or qualifications.
+The project was adapted from the Freebuff Portfolio starter. The project list is explicitly demonstration content, not a record of Nisam’s actual work or qualifications.
 
 ## Deploy with Freebuff Sites
 

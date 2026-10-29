@@ -1,10 +1,10 @@
-// Editable site content. Demonstration entries below are placeholders, not claims about Yasmi's real work.
+// Editable site content. Demonstration entries below are placeholders, not claims about Nisam's real work.
 export const site = {
-  name: 'Yasmi',
+  name: 'Nisam',
   role: 'A personal portfolio',
   location: 'Add location',
   timezone: 'UTC',
-  email: 'hello@yasmi.example',
+  email: 'hello@Nisam.example',
   intro: 'A collection of ideas, images and digital studies — made to leave room for what comes next.',
   socials: [
     { label: 'Instagram', href: 'https://www.instagram.com/' },
@@ -77,7 +77,7 @@ export const projects: Project[] = [
 
 export const bySlug = (slug: string) => projects.find((project) => project.slug === slug)
 
-// Replace these examples with Yasmi's own focus areas before publishing.
+// Replace these examples with Nisam's own focus areas before publishing.
 export const services = [
   { title: 'Image', body: 'A focus area to edit with a short description of the real work.' },
   { title: 'Identity', body: 'A focus area to edit with a short description of the real work.' },
